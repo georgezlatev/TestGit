@@ -18,7 +18,7 @@ public class Person {
 
 
 	//this is a bla bla12121 11 third setter
-	//this is a Las1212t 11 name Setter
+	//this is a12t 11 name Setter
 	//this is a Last 11 11 name Setter
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
