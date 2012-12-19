@@ -11,9 +11,11 @@ public class Person {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+	//this is a second setter
 	public String getLastName() {
 		return lastName;
 	}
+	//this is a third setter
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
