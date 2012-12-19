@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="userD1" name="userFirst"
+		class="prudence.spring.beans.Person">
+		<property name="firstName" value='"MyName"'></property>
+		<property name="lastName" value="LestFirstUser"></property>
+	</bean>
+	<bean id="user2" class="prudence.spring.beans.Person">
+		<property name="firstName" value="Peter"></property>
+		<property name="lastName" value="Fogel"></property>
+	</bean>
+	<bean id="firstCouple" class="prudence.spring.beans.Couple">
+		<property name="female" ref="userD1"></property> 
+		<property name="male" ref="user2"></property>
+	</bean>
+</beans>
